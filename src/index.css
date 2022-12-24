@@ -135,8 +135,17 @@ video {
   font-weight: 700;
   margin-bottom: 3.5rem;
 }
+.SubTitle {
+  font-size: 23px;
+  color: #151418;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
 .ProjectWrapper {
   margin-top: -1rem;
+}
+.ContactWrapper {
+  height: 880px;
 }
 
 /* ------------------------------------ Media for Container */
