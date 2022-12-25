@@ -7,6 +7,7 @@ import {
   TechImg,
   TechName,
   ContactWrapper,
+  SchoolImg
 } from "./AboutElements";
 function About() {
   return (
@@ -33,15 +34,33 @@ function About() {
           <div className="SectionTitle">About Me</div>
           <div className="BigCard">            
             <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+              src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/transp.png"
               alt="man-svgrepo"
             />
             
             <div className="Education">
               <div className="SubTitle">Education</div>
-                <li>Master of Science (09/22 - expect 03/24)</li>
+                <div>
+                  <SchoolImg
+                    src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/ucsd-logo.jpeg"
+                    alt="ucsd"
+                  />
+                  Master of Science (09/22 - expect 03/24)
+                </div>
+                <br></br>
+                <li>Computer Engineering</li>
+                <br></br>
+              
+                <div>
+                  <SchoolImg
+                    src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/scut-logo.png"
+                    alt="scut"
+                  />
+                  Bachelor of Engineering (09/22 - expect 03/24)
+                </div>
+                <br></br>
+                <li>Computer Engineering</li>
                 
-                <li>Bachelor of Engineer (09/18 - 06/22)</li>
             </div>
             
             <div className="AboutBio">

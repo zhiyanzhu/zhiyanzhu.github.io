@@ -10,6 +10,14 @@ export const Image = styled.img`
   margin-bottom: 1rem;
 `;
 
+export const SchoolImg = styled.img`
+  float: left;
+  max-width: 120px;
+  margin: 0 auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+`;
+
 export const Technologies = styled.div`
   display: flex;
   flex-wrap: wrap;

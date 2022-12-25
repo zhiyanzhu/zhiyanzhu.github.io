@@ -145,7 +145,7 @@ video {
   margin-top: -1rem;
 }
 .ContactWrapper {
-  height: 880px;
+  height: auto;
 }
 
 /* ------------------------------------ Media for Container */
