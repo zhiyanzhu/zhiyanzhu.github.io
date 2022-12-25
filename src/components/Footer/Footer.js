@@ -26,11 +26,11 @@ function Footer() {
         <span>
           Coded with 💙 by{" "}
           <a
-            href="https://github.com/gurupawar/"
+            href="https://github.com/zhiyanzhu/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @gurupawar
+            @zhiyanzhu
           </a>{" "}
         </span>
       </div>

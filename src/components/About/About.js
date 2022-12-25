@@ -1,10 +1,12 @@
 import React from "react";
-import { stackList } from "../../data/ProjectData";
+import { stackList1 } from "../../data/ProjectData";
+import { stackList2 } from "../../data/ProjectData";
 import {
   Image,
   Technologies,
   Tech,
-  TechImg,
+  TechImg1,
+  TechImg2,
   TechName,
   ContactWrapper,
   SchoolImg
@@ -41,10 +43,12 @@ function About() {
             <div className="Education">
               <div className="SubTitle">Education</div>
                 <div>
-                  <SchoolImg
-                    src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/ucsd-logo.jpeg"
-                    alt="ucsd"
-                  />
+                  <a href="http://ucsd.edu">
+                    <SchoolImg
+                      src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/ucsd-logo.jpeg"
+                      alt="ucsd"
+                    />
+                  </a>
                   Master of Science (09/22 - expect 03/24)
                 </div>
                 <br></br>
@@ -52,17 +56,21 @@ function About() {
                 <br></br>
               
                 <div>
-                  <SchoolImg
-                    src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/scut-logo.png"
-                    alt="scut"
-                  />
-                  Bachelor of Engineering (09/22 - expect 03/24)
+                  <a href="http://scut.edu.cn">
+                    <SchoolImg
+                      src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/scut-logo.png"
+                      alt="scut"
+                    />
+                  </a>
+                  Bachelor of Engineering (09/18 - 06/22)
                 </div>
                 <br></br>
-                <li>Computer Engineering</li>
-                
+                <li>Logistics Engineering (Major)</li>
+                <li>Computer Science (Minor)</li>
             </div>
+            <br></br>
             
+            <div className="SubTitle">Skills</div>
             <div className="AboutBio">
               Hello! My name is <strong>Zhiyan Zhu</strong> Lorem Ipsum is simply
               dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -73,12 +81,17 @@ function About() {
             <div className="AboutBio tagline2">
               I have become confident using the following technologies.
             </div>
-
-            <div className="SubTitle">Skills</div>
+            
             <Technologies>
-              {stackList.map((stack, index) => (
+              {stackList1.map((stack, index) => (
                 <Tech key={index} className="tech">
-                  <TechImg src={stack.img} alt={stack.name} />
+                  <TechImg1 src={stack.img} alt={stack.name} />
+                  <TechName>{stack.name}</TechName>
+                </Tech>
+              ))}
+              {stackList2.map((stack, index) => (
+                <Tech key={index} className="tech">
+                  <TechImg2 src={stack.img} alt={stack.name} />
                   <TechName>{stack.name}</TechName>
                 </Tech>
               ))}

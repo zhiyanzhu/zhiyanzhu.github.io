@@ -31,14 +31,19 @@ export const Tech = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 100px;
+  max-width: 150px;
   min-width: 100px;
   margin-bottom: 2rem;
 `;
 
-export const TechImg = styled.img`
-  height: 50px;
-  width: 50px;
+export const TechImg1 = styled.img`
+  height: 40px;
+  width: auto;
+`;
+export const TechImg2 = styled.img`
+  height: 46px;
+  width: auto;
+  max-width: 120px;
 `;
 
 export const TechName = styled.div`
