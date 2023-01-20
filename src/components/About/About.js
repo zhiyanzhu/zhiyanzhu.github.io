@@ -39,49 +39,8 @@ function About() {
               src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/transp.png"
               alt="man-svgrepo"
             />
-            
-            <div className="Education">
-              <div className="SubTitle">Education</div>
-                <div>
-                  <a href="http://ucsd.edu">
-                    <SchoolImg
-                      src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/ucsd-logo.jpeg"
-                      alt="ucsd"
-                    />
-                  </a>
-                  Master of Science (09/22 - expect 03/24)
-                </div>
-                <br></br>
-                <li>Computer Engineering</li>
-                <br></br>
-              
-                <div>
-                  <a href="http://scut.edu.cn">
-                    <SchoolImg
-                      src="https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/scut-logo.png"
-                      alt="scut"
-                    />
-                  </a>
-                  Bachelor of Engineering (09/18 - 06/22)
-                </div>
-                <br></br>
-                <li>Logistics Engineering (Major)</li>
-                <li>Computer Science (Minor)</li>
-            </div>
-            <br></br>
-            
+
             <div className="SubTitle">Skills</div>
-            <div className="AboutBio">
-              Hello! My name is <strong>Zhiyan Zhu</strong> Lorem Ipsum is simply
-              dummy text of the printing and typesetting industry. Lorem Ipsum has
-              been the industry's standard dummy text ever since the 1500s, when
-              an unknown printer took a galley of type and scrambled it to make a
-              type specimen book. It has survived not only five centuries, but.
-            </div>
-            <div className="AboutBio tagline2">
-              I have become confident using the following technologies.
-            </div>
-            
             <Technologies>
               {stackList1.map((stack, index) => (
                 <Tech key={index} className="tech">
@@ -96,6 +55,12 @@ function About() {
                 </Tech>
               ))}
             </Technologies>
+
+
+
+
+
+            
           </div>
         </div>
       </div>

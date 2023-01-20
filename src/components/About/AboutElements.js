@@ -41,9 +41,9 @@ export const TechImg1 = styled.img`
   width: auto;
 `;
 export const TechImg2 = styled.img`
-  height: 46px;
+  height: 44px;
   width: auto;
-  max-width: 120px;
+  margin: 0.6rem;
 `;
 
 export const TechName = styled.div`

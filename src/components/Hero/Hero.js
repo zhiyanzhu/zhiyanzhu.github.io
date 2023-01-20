@@ -24,9 +24,9 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h1>Hi, I'm Zhiyan Zhu</h1>
-            <h5>Frontend Developer</h5>
+            <h5>Software Developing Enthusiast</h5>
             <p>
-              I design and code beautifully simple things, and I love what I do.
+              Actively looking for SDE internship positions for Summer 2023.
             </p>
           </HeroLeft>
           <HeroRight>
