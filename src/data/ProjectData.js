@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png",
+    img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/data/portfolio-screenshot.png",
     title: "Portfolio",
     description: "This is my own personal portfolio website.",
     tech_stack: "ReactJS, CSS, JavaScript",
@@ -9,7 +9,7 @@ export const ProjectList = [
     demo_url: "https://zhiyanzhu.github.io/",
   },
   {
-    img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/project_3.png",
+    img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/data/babblogs-screenshot.png",
     title: "Babblogs",
     description:
       "Created simple personal blogs website using reactjs and react-use-cart plugin.",
@@ -57,9 +57,14 @@ export const stackList1 = [
   {
     img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/ps-logo.png",
     name: "PhotoShop",
+  },
+  {
+    img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/mongodb-logo.png",
+    name: "MongoDB",
   }
   ]
 export const stackList2 = [
+
   {
     img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/java-logo.png",
   },
@@ -77,9 +82,6 @@ export const stackList2 = [
   },
   {
     img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/amazon-quicksight-logo.png",
-  },
-  {
-    img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/amazon-s3-logo.png",
   },
   {
     img: "https://raw.githubusercontent.com/zhiyanzhu/zhiyanzhu.github.io/main/src/logos/awsRedshift-logo.png",
